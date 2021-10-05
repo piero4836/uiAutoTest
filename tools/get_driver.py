@@ -11,7 +11,7 @@ class GetDriver:
         #driver非空判断
         if cls.__web_driver is None:
             #获取浏览器
-            cls.__web_driver = webdriver.Chrome()
+            cls.__web_driver = webdriver.Chrome("/usr/local/bin/chromedriver")
             #最大化浏览器
             cls.__web_driver.maximize_window()
             #打开url
