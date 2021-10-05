@@ -12,6 +12,7 @@ class GetDriver:
         if cls.__web_driver is None:
             #获取浏览器
             cls.__web_driver = webdriver.Chrome()
+
             #最大化浏览器
             cls.__web_driver.maximize_window()
             #打开url
