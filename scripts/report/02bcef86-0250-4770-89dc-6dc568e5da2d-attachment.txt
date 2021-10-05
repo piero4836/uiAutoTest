@@ -1,0 +1,8 @@
+INFO     root:base.py:11 正在初始化driver: <selenium.webdriver.chrome.webdriver.WebDriver (session="bb398e4e15cd5447770a80da1304c5cc")>
+INFO     root:base.py:22 正在查找元素: ('css selector', "[placeholder='请输入用户名']")
+INFO     root:base.py:33 正在对 ('css selector', "[placeholder='请输入用户名']") 元素执行清空操作
+INFO     root:base.py:36 正在对 ('css selector', "[placeholder='请输入用户名']") 元素执行输入操作
+INFO     root:base.py:22 正在查找元素: ('css selector', "[placeholder='请输入密码']")
+INFO     root:base.py:33 正在对 ('css selector', "[placeholder='请输入密码']") 元素执行清空操作
+INFO     root:base.py:36 正在对 ('css selector', "[placeholder='请输入密码']") 元素执行输入操作
+INFO     root:base.py:22 正在查找元素: ('css selector', '.el-button--primary')

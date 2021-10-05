@@ -1,0 +1,4 @@
+mp_app001:
+  #version: "123456"
+  versionName: "安卓1"
+  expect: "123456789"

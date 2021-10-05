@@ -1,0 +1,4 @@
+mp_login001:
+  username: "admin"
+  password: "123456"
+  expect: "平台管理员"
