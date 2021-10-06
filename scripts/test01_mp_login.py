@@ -27,7 +27,6 @@ class TestMpLogin:
     def test_mp_login(self, username, password, expect):
         # 调用登录业务方法
         self.mp.page_mp_login(username,password)
-        self.app.page_mp_app("1", "2")
         try:
             assert expect == self.mp.page_get_nickname()
         except Exception as e:
